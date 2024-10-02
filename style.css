@@ -1,0 +1,153 @@
+body{
+    background-image: linear-gradient(to right, #000000, #CCCCCC);
+    text-align: center;
+    color: whitesmoke;
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+ 
+/* From Uiverse.io by Fcodingx */ 
+.card {
+  width: 190px;
+  height: 120px;
+  padding: 0.5rem;
+  background: rgba(198, 198, 198, 0.34);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+  border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+  transform: skewX(10deg);
+  transition: .4s;
+  overflow: hidden;
+  color: white;
+  margin: 20px;
+}
+
+.card:hover {
+  height: 254px;
+  transform: skew(0deg);
+}
+
+.align {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-self: flex-start;
+}
+
+.red {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.yellow {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffbd44;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00ca4e;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.280);
+}
+
+.card h1 {
+  text-align: center;
+  margin: 1.3rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+
+
+
+  figure{
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+  }
+
+  figure img{
+    width: 100%;
+    border-radius: 20%;
+  }
+  
+  section{
+    padding: 20px 0;
+    margin: 76px;
+  }
+
+  .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 6px;
+  }
+
+  .card ul li{
+    margin-bottom: 6px; 
+  }
+
+
+  h1,h2,h3,ul,p{
+    list-style: none;
+    text-align: center
+    
+}
+
+
+a:-webkit-any-link{
+    color: unset;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    font-size: 36px;
+}
+
+strong{
+  color: #000000
+}
+
+header{
+  padding: 50px;
+  background-color: #000000;
+  text-align: center;
+}
+
+nav {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 690px) {
+  body{
+    background-image: linear-gradient(to right, #874a4a, #951f1f);
+  }
+
+  main{
+    width: 100vw;
+  }
+}
